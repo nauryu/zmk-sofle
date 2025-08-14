@@ -148,7 +148,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - '&mmv MOVE_Y(100)'
-  - '&mmv MOVE_Y(-100)'
+  - '&mmv MOVE_Y(-200)'
   - '&mmv MOVE_X(100)'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -160,9 +160,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
-  - '&mmv MOVE_X(-100)'
+  - '&mmv MOVE_X(-200)'
   - $$mdi:mouse-left-click-outline$$
-  - '&mmv MOVE_X(100)'
+  - '&mmv MOVE_X(200)'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
@@ -174,7 +174,7 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_Y(-100)'
-  - '&mmv MOVE_Y(100)'
+  - '&mmv MOVE_Y(200)'
   - '&mmv MOVE_X(-100)'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
